@@ -45,7 +45,7 @@ namespace C_Sharp_Sandbox
             Console.WriteLine("Variável String: " + cadeiaCaracteres);
             Console.WriteLine("Variável Char: " + caracter);
 
-            Console.WriteLine("\n~Edição de valor das variáveis\n");
+            Console.WriteLine("\n~Editando valores das variáveis\n");
 
             integral = 98;
             pontoFlutuanteFloat = 234.134f;
@@ -62,6 +62,11 @@ namespace C_Sharp_Sandbox
             Console.WriteLine("Variável Bool (editada): " + booliano);
             Console.WriteLine("Variável String (editada): " + cadeiaCaracteres);
             Console.WriteLine("Variável Char (editada): " + caracter);
+
+            // Declaração de Constantes -> acrescentar a palavra reservada const antes do tipo do dado
+            Console.WriteLine("\n~Declarando a constante PI\n");
+            const float numeroConstantePI = 3.1415f;
+            Console.WriteLine("Constante PI: " + numeroConstantePI);
 
         }
     }
