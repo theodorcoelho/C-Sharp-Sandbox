@@ -11,6 +11,7 @@ namespace C_Sharp_Sandbox
     {
         static void Main(string[] args) // Função principal -> Primeiro bloco de código que será executado
         {
+            // Exibição de Texto no Console
             Console.Write("Este comando escreve o texto entre aspas no prompt de comando");
 
             Console.Write("\n\nAcrescentando quebra de linha\ndentro do texto\n\n");
@@ -19,6 +20,49 @@ namespace C_Sharp_Sandbox
 
             Console.WriteLine("Este comando acrescenta uma quebra de linha depois do texto");
             Console.Write("Hello World!");
+
+            Console.WriteLine("\n");
+
+            // Declaração de Variáveis
+
+            // É possível criar tipos de dados personalizados
+            // Principais tipos de dados que já vem definidos: 
+
+            int integral = 12; // Integral = Números Inteiros
+            float pontoFlutuanteFloat = 1.1f; // Números Reais ~6 a 9 dígitos
+            double pontoFlutuanteDouble = 34.2425364326234; // Números Reais ~15 a 17 dígitos
+            decimal pontoFlutuanteDecimal = 13.99m;// Números Reais  28 a 29 dígitos
+            bool booliano = true; // alias classe System.Boolean = Valor booliano -> Verdadeiro ou Falso
+            string cadeiaCaracteres = "Cadeia de Caracteres v1.0";// alias classe .String = Dados inseridos entre aspas duplas
+            char caracter = 'A'; // Caracter ÚNICO inserido entre aspas simples
+
+           
+            Console.WriteLine("Variável Int: " + integral);
+            Console.WriteLine("Variável Float: " + pontoFlutuanteFloat);
+            Console.WriteLine("Variável Double: " + pontoFlutuanteDouble);
+            Console.WriteLine("Variável Decimal: " + pontoFlutuanteDecimal);
+            Console.WriteLine("Variável Bool: " + booliano);
+            Console.WriteLine("Variável String: " + cadeiaCaracteres);
+            Console.WriteLine("Variável Char: " + caracter);
+
+            Console.WriteLine("\n~Edição de valor das variáveis\n");
+
+            integral = 98;
+            pontoFlutuanteFloat = 234.134f;
+            pontoFlutuanteDouble = 11.11111114;
+            pontoFlutuanteDecimal = 19.99m;
+            booliano = false;
+            cadeiaCaracteres = "Cadeia de Caracteres v2.0";
+            caracter = 'E';
+
+            Console.WriteLine("Variável Int (editada): " + integral);
+            Console.WriteLine("Variável Float (editada): " + pontoFlutuanteFloat);
+            Console.WriteLine("Variável Double (editada): " + pontoFlutuanteDouble);
+            Console.WriteLine("Variável Decimal (editada): " + pontoFlutuanteDecimal);
+            Console.WriteLine("Variável Bool (editada): " + booliano);
+            Console.WriteLine("Variável String (editada): " + cadeiaCaracteres);
+            Console.WriteLine("Variável Char (editada): " + caracter);
+
         }
     }
 }
