@@ -68,6 +68,16 @@ namespace C_Sharp_Sandbox
             const float numeroConstantePI = 3.1415f;
             Console.WriteLine("Constante PI: " + numeroConstantePI);
 
+            // Captura de Entrada de Dados
+            Console.Write("~Recebendo dados inseridos pelo prompt: ");
+            string inputUsuario = System.String.Empty; // Inicializando a variável inputUsuario vazia, seria o mesmo de usar = ""
+
+            inputUsuario = Console.ReadLine(); // Programa lê o que foi inserido via prompt e armazena na variável
+            Console.WriteLine("Valor inserido pelo usuário: " + inputUsuario);
+
+            Console.Write("~Nova leitura: ");
+            inputUsuario = Console.ReadLine();
+            Console.WriteLine("Valor inserido na nova leitura: " + inputUsuario);
         }
     }
 }
