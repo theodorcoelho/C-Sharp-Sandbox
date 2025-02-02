@@ -7,7 +7,7 @@ using System.Text;
 
 namespace C_Sharp_Sandbox
 {
-    internal class Program
+    internal class Fundamentals
     {
         static void Main(string[] args) // Função principal -> Primeiro bloco de código que será executado
         {
