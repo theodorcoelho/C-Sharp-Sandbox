@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Sandbox.Operators</StartupObject>
+    <StartupObject>C_Sharp_Sandbox.Functions</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="Fundamentals.cs" />
     <Compile Include="Operators.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
