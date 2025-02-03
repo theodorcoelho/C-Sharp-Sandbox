@@ -11,44 +11,53 @@ namespace C_Sharp_Sandbox
         static void Main(string[] args)
         {
             exibirTexto();
+            Console.WriteLine(somar(45, 90));
             Console.Write("Insira o ano do seu nascimento: ");
             int anoNascimento = int.Parse(Console.ReadLine());
-            descobreGeracao(anoNascimento);
+            Console.Write("Você faz parte da " + descobreGeracao(anoNascimento));
+
         }
 
-        static void exibirTexto()
+        static void exibirTexto() // Função que não retorna nenhum valor
         {
             Console.WriteLine("Exibindo texto por meio da funcao exibirTexto()");
         }
 
-        static void descobreGeracao(int anoNascimento)
+        // Se for definido um tipo pra retornar o valor o return se torna obrigatório
+        static int somar(int num1, int num2) // Função que retorna um valor int
         {
-            Console.Write("Você faz parte da ");
+            int resultado = num1 + num2;
+            return resultado;
+        }
+        static string descobreGeracao(int anoNascimento) // Função que retorna um valor string
+        {
 
             if (anoNascimento >= 2010)
             {
-                Console.WriteLine("Geração Alpha");
+                return "Geração Alpha";
             }
             else if (anoNascimento < 2010 && anoNascimento >= 1997)
             {
-                Console.WriteLine("Geração Z");
+                return "Geração Z";
             }
             else if (anoNascimento < 1997 && anoNascimento >= 1981)
             {
-                Console.WriteLine("Geração Y, também conhecidos como Millennials");
+                return "Geração Y, também conhecidos como Millennials";
             }
             else if (anoNascimento < 1981 && anoNascimento >= 1965)
             {
-                Console.WriteLine("Geração X");
+                return "Geração X";
             }
             else if (anoNascimento < 1965 && anoNascimento >= 1945)
             {
-                Console.WriteLine("Geração Baby Boomers");
+                return "Geração Baby Boomers";
             }
             else
             {
-                Console.WriteLine("Geração que precede os Baby Boomers");
+                return "Geração que precede os Baby Boomers";
             }
         }
+
+       
     }
 }
