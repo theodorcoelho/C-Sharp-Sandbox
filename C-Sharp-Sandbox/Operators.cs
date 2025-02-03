@@ -31,6 +31,8 @@ namespace C_Sharp_Sandbox
             Console.WriteLine("Flutuante (double) A: " + doubleA);
             Console.WriteLine("Flutuante (decimal) A: " + decimalA);
 
+            Console.WriteLine("Operadores Aritméticos:");
+
             Console.WriteLine("\nOperações básicas entre inteiros e flutuantes:");
             Console.WriteLine("Adição:");
             Console.WriteLine("Integral A + Integral B: " + (intA + intB));
@@ -73,6 +75,25 @@ namespace C_Sharp_Sandbox
             Console.WriteLine("Divisão com float (6-9 dígitos): " + (floatA / 3));
             Console.WriteLine("Divisão com double (15-17 dígitos): " + (doubleA / 3));
             Console.WriteLine("Divisão com decimal (28-29 dígitos): " + (decimalA / 3));
+
+            // ------------------------------
+
+            Console.WriteLine("\n\nCondicionais:");
+
+            // if, else if, else
+            if (intA == intB)
+            {
+                Console.WriteLine("Os integrais são iguais");
+            }
+            else if (intA > floatB)
+            {
+                Console.WriteLine("Integral A é menor ou igual ao Flutuante (float) A");
+            }
+            else
+            { 
+              Console.WriteLine("Os integrais não são iguais e o int A é menor que float B");
+            }
+
         }
     }
 }
