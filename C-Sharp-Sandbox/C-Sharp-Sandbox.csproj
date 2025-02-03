@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Sandbox.Functions</StartupObject>
+    <StartupObject>C_Sharp_Sandbox.Arrays</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays.cs" />
     <Compile Include="Fundamentals.cs" />
     <Compile Include="Operators.cs" />
     <Compile Include="Functions.cs" />
