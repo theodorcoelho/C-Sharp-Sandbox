@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Sandbox
 {
-    internal class Program
+    internal class Functions
     {
         static void Main(string[] args)
         {
