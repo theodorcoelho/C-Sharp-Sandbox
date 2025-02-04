@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Sandbox.SwitchEnum</StartupObject>
+    <StartupObject>C_Sharp_Sandbox.Loops</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Arrays.cs" />
     <Compile Include="Fundamentals.cs" />
+    <Compile Include="Loops.cs" />
     <Compile Include="Operators.cs" />
     <Compile Include="Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
