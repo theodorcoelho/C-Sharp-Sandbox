@@ -43,6 +43,20 @@ namespace C_Sharp_Sandbox
                 }
                 Console.Write("\n");
             }
+            Console.Write("\n");
+
+            // FOR
+
+            for (int i= 1;i <=5;i++) // (declara a variavel index;condicao do loop;incrementa a variavel index)
+            {
+                Console.WriteLine("FOR LOOP NUMERO " + i);
+            }
+            Console.Write("\n");
+
+            for (int i = 0; i < nomes.Length; i++)
+            {
+                Console.WriteLine("Interagindo com o nome: " + nomes[i]);
+            }
         }
     }
 }
